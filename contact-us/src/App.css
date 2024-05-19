@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+#background{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(3, 180, 150, 0.2);
+  width: 100vw;
+  height: 100vh;
+
+  
+  
+}
+
+
+#card
+{
+  display:block;
+  margin-top: 12.5vh;
+  flex-direction: horizontal;
+  width: 33.33333333333333333333333333333333vw;
+  height: 75vh;
+  border-radius: 15px;
+  background-color: white;
+
+}
+
+h1
+{
+  align-content: top;
+  justify-content: center;
+  color: rgba(3, 180, 150, 1);
+  font-weight: bold;
+}
+input{
+  display: block;
+  width: 40%;
+  margin: 5px;
+}
+#first-name
+{
+  display: block;
+  width: 40%;
+  
+}
+label
+{
+  color: rgba(3, 180, 150, 0.7);
+  margin: 5px;
+}
+#query-type
+{
+  display: flex;
+}
+#general-enquiry
+{
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  width: 5px;
+}
+#support-request
+{
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  width: 5px;
+}
+#message
+{
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  width: 91%;
+}
+.container
+{
+  display: flex;
+  justify-content: center;
+}
+#submit
+{
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+  background-color:rgba(3, 180, 150, 1);
+  border-radius: 12px;
+  font-size: 1.65em;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
